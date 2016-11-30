@@ -10,7 +10,7 @@
 	canvas.height = window.innerHeight
   ctx.globalCompositeOperation;
 
-	var drawTree = function (ctx, startX, startY, length, angle ,depth, branchWidth) {
+	var drawTree = function (ctx, startX, startY, length, angle, depth, branchWidth) {
 		var rand = Math.random, newDepth,
 			newLength, newAngle, maxBranch = 3,
 			endX, endY, maxAngle = Math.PI /2,
