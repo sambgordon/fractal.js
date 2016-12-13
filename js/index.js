@@ -74,7 +74,7 @@ void function () {
 		}
 	}
 	/*adds event listener that detects whether DOM has loaded, runs fractalTree regardless if content has loaded
-	so it triggers quicker */
+	so it triggers more quickly */
 	document.addEventListener('DOMContentLoaded',function(){
 		fractalTree()
 	}, false);
