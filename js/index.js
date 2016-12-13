@@ -1,4 +1,4 @@
-/*The following vars are used for different parameters of generated tree:
+/*The following vars are used for different parameters of generated tree and can searched easily:
 
 mainBranch = the main generated branch
 subBranches = the sub branches that are generated "infinitely"
