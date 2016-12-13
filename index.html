@@ -1,43 +1,45 @@
-<!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Fractal Trees</title>
 
-
+<!-- import Bootstrap library -->
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-      <link rel="stylesheet" href="css/style.css">
-
+<!-- import style.css-->
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
   <div class="text-center">
-  <canvas id="mycanvas" width="100%" height="100%"></canvas>
-
-      <h1>
+  <!-- generate canvas instance-->
+  <canvas id="mycanvas"></canvas>
+    <h1>
+      <br /> Fractal Trees
+    </h1>
+    <h2>
+       by
+    </h2>
+    <h1>
+      Sam Gordon
+    </h1>
+    <h4>
       <br />
-      Fractal Trees</h1>
-      <h2> by</h2>
-      <h1>Sam Gordon</h1>
-      <h4><br /> </h4>
+    </h4>
   <div id="BUTTON1">
-<button type="button" class="btn btn-default" onclick="myFunction()" style="font-family: customFont;">Generate!</button>
+  <!-- button that triggers myFunction() on click to reset canvas by page reload-->
+<button type="button" class="btn btn-default" onclick="myFunction()" style="font-family: 'Open Sans', sans-serif;">
+Generate!
+</button>
   </div>
-</div>
 
-
-
-
+<!-- import jQuery lib -->
 <script type="text/javascript" src="/jquery-3.1.1.js"></script>
-
+<!-- Page reload function -->
 <script>
 function myFunction() {
-    location.reload();
+  location.reload();
 }
 </script>
-    <script src="js/index.js"></script>
-
+<!-- import script -->
+<script src="js/index.js"></script>
 </body>
-
 </html>
