@@ -2,7 +2,7 @@
 
 A fractal generating app using native Javascript and an instance of Canvas.
 
-Branches are generated that get smaller and smaller infinitely  (0 is an asymptote that the width of the branches will approach).
+Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an asymptote that the width of the branches will approach).
 
 NOTE: Runs best in Chrome!
 
