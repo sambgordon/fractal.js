@@ -2,13 +2,12 @@
 
 mainBranch = the main generated branch
 subBranches = the sub branches that are generated "infinitely"
-travel = the "distance" the branches will travel
+travel = "distance" the branches will travel
 branchWidth = Width of the stroke generated branches - keep in mind they
 get exponentially thinner and thinner as recursion continues
 startX, StartY, endX, endY = Defines path starting and ending values
-length = length of each new tree relative to window
+length = length of each new tree relative to window size
 angle = angle of path of each new tree
-
 
 I annotated the code so you can follow along!
 */
