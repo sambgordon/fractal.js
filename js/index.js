@@ -2,7 +2,7 @@
 
 mainBranch = the main generated branch
 subBranches = the sub branches that are generated "infinitely"
-travel = "distance" the branches will travel
+travel = defines travel distance of branches
 branchWidth = Width of the stroke generated branches - keep in mind they
 get exponentially thinner and thinner as recursion continues
 startX, StartY, endX, endY = Defines path starting and ending values
