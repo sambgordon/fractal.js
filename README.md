@@ -14,7 +14,8 @@ A fractal generating app using native Javascript and an instance of Canvas.
 
 Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an asymptote that the width of the branches will approach - leave it running for a while and see!).
 
-## NOTE: Runs best in Chrome!
+### NOTE: Runs best in Chrome!
+#### Also: If you resize the browser, simply re-generate and it will generate in accordance to the new browser size.
 
 *UPDATE: I now intend on integrating a UI with the app using jQuery where the user is able to adjust certain parameters themselves. Stay tuned.
 
