@@ -20,7 +20,7 @@ length = length of each new tree relative to window size
 angle = angle of path of each new tree
 
 | Var             | Description     |
-| -------------   |:---------------:|
+| -------------   |:---------------|
 | mainBranch      | main generated branch|
 | subBranches     | sub branches that are generated "infinitely"|
 | travel          | defines travel distance of branches|
