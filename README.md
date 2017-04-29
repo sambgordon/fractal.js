@@ -17,7 +17,7 @@ Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an as
 ### NOTE: Runs best in Chrome!
 #### Also: If you resize the browser, simply click "Generate!" and the new tree will be created in accordance to the new browser size.
 
-*UPDATE: I now intend on integrating a UI with the app using jQuery where the user is able to adjust certain parameters themselves. Stay tuned.
+(*UPDATE: I now intend on integrating a UI with the app using jQuery where the user is able to adjust certain parameters themselves. Stay tuned.*)
 
 [View live Demo](https://rawgit.com/sambgordon/Recursive-Fractal-Trees/master/index.html)
 
