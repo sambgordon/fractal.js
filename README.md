@@ -3,7 +3,7 @@ ___
 ### A fractal generating app using native Javascript and an instance of Canvas.
 
 | Var             | Description     |
-| -------------   |:---------------|
+| :-------------   |:---------------|
 | mainBranch      | Main generated branch|
 | subBranches     | Sub branches that are generated "infinitely"|
 | travel          | Defines travel distance of branches|
