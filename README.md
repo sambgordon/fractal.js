@@ -4,13 +4,13 @@ ___
 
 | Var             | Description     |
 | :-------------   |:---------------|
-| mainBranch      | Main generated branch|
-| subBranches     | Sub branches that are generated "infinitely"|
-| travel          | Defines travel distance of branches|
-| branchWidth     | Width of the stroke of generated branches|
-| length          | Length of each new tree relative to window size|
-| angle           | Angle of path of each new tree|
-| start[var], end[var] | Defines path starting and ending values|
+| `mainBranch`      | Main generated branch|
+| `subBranches`    | Sub branches that are generated "infinitely"|
+| `travel`          | Defines travel distance of branches|
+| `branchWidth`     | Width of the stroke of generated branches|
+| `length`          | Length of each new tree relative to window size|
+| `angle`           | Angle of path of each new tree|
+| `start[var]`, `end[var]` | Defines path starting and ending values|
 
 Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an asymptote that the width of the branches will approach - leave it running for a while and see!).
 
