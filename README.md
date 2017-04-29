@@ -1,6 +1,6 @@
 ___
 # FractalTrees.js
-### A fractal generating app using native Javascript and an instance of Canvas.
+### A fractal generating app using native Javascript and an instance of canvas.
 
 | Var             | Description     |
 | :-------------   |:---------------|
@@ -10,7 +10,7 @@ ___
 | `branchWidth`     | Width of the stroke of generated branches|
 | `length`          | Length of each new tree relative to window size|
 | `angle`           | Angle of path of each new tree|
-| `start[var]`, `end[var]` | Defines path starting and ending values|
+| `start[var]`, `end[var]` | Defines path starting and ending vals|
 
 Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an asymptote that the width of the branches will approach - leave it running for a while and see!).
 
