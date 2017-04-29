@@ -1,5 +1,5 @@
 # FractalTrees.js
-### A fractal generating app using native Javascript and an instance of Canvas.
+### A fractal generating app using native Javascript and an instance of 'Canvas'.
 ___
 
 | Var             | Description     |
