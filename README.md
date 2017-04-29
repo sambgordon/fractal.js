@@ -19,9 +19,9 @@ startX, StartY, endX, endY = Defines path starting and ending values
 length = length of each new tree relative to window size
 angle = angle of path of each new tree
 
-| Var             | Function      |
-| -------------   |:-------------:|
-| mainBranch      | right-aligned |
+| Var             | Description     |
+| -------------   |:---------------:|
+| mainBranch      | the main generated branch |
 | subBranches     | centered      |
 | travel          | are neat      |
 | branchWidth     | are neat      |
