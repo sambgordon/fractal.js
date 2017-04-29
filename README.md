@@ -21,9 +21,9 @@ angle = angle of path of each new tree
 
 | Var             | Description     |
 | -------------   |:---------------:|
-| mainBranch      | the main generated branch |
-| subBranches     | centered      |
-| travel          | are neat      |
-| branchWidth     | are neat      |
-| length          | are neat      |
-| angle           | are neat      |
+| mainBranch      | main generated branch|
+| subBranches     | sub branches that are generated "infinitely"|
+| travel          | defines travel distance of branches|
+| branchWidth     | Width of the stroke of generated branches|
+| length          | length of each new tree relative to window size|
+| angle           | angle of path of each new tree|
