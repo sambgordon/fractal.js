@@ -11,3 +11,9 @@ Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an as
 https://rawgit.com/sambgordon/Recursive-Fractal-Trees/master/index.html
 
 'mainBranch' = the main generated branch
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
