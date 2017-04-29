@@ -27,3 +27,4 @@ angle = angle of path of each new tree
 | branchWidth     | Width of the stroke of generated branches|
 | length          | length of each new tree relative to window size|
 | angle           | angle of path of each new tree|
+| start[var], end[var]           | angle of path of each new tree|
