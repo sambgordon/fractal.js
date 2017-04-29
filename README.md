@@ -1,6 +1,6 @@
+___
 # FractalTrees.js
 ### A fractal generating app using native Javascript and an instance of Canvas.
-___
 
 | Var             | Description     |
 | -------------   |:---------------|
@@ -20,5 +20,4 @@ Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an as
 (*UPDATE: I now intend on integrating a UI with the app using jQuery where the user is able to adjust certain parameters themselves. Stay tuned.*)
 
 [View live Demo](https://rawgit.com/sambgordon/Recursive-Fractal-Trees/master/index.html)
-
- 
+___
