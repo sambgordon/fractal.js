@@ -5,7 +5,7 @@ ___
 | Var             | Description     |
 | :-------------   |:---------------|
 | `mainBranch`      | Main generated branch|
-| `subBranches`    | Sub branches that are generated "infinitely"|
+| `subBranches`    | Sub branches that are generated recursively|
 | `travel`          | Defines travel distance of branches|
 | `branchWidth`     | Width of the stroke of generated branches|
 | `length`          | Length of each new tree relative to window size|
