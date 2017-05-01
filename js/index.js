@@ -54,7 +54,7 @@ void function () {
 		if (!newTravel) return
 		subBranches = mainBranch -1
 		/*This is where the recursion really occurs!
-		Each new child branch is 7/10 the size of its parent branch,
+		Each new child branch is .7x the size of its parent branch,
 		so they are generated infinitely until they "fizzle out". */
 		branchWidth *= .7
 		for (var i = 0; i < subBranches; i++) {
