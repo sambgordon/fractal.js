@@ -1,7 +1,7 @@
 /*The following vars are used for different parameters of generated tree and can searched easily:
 
 mainBranch = the main generated branch
-subBranches = the sub branches that are generatedrecursively
+subBranches = the sub branches that are generated "infinitely"
 travel = defines travel distance of branches
 branchWidth = Width of the stroke of generated branches - keep in mind they
 get exponentially thinner and thinner as recursion continues
@@ -9,9 +9,7 @@ startX, StartY, endX, endY = Defines path starting and ending values
 length = length of each new tree relative to window size
 angle = angle of path of each new tree
 
-I annotated the code so you can follow along.
--S
-
+I annotated the code so you can follow along!
 */
 
 void function () {
@@ -32,7 +30,7 @@ void function () {
 		//Defines placement of tree relative to window, also
 		drawTree(ctx, (window.innerWidth/2), (window.innerHeight/1), 40, -Math.PI/2, travel+10, branchWidth)
 	}
-	//Define drawTree var as function that has the following params
+	//Define drawTree var as function that has following variables as parameters
 	var drawTree = function (ctx, startX, startY, length, angle, travel, branchWidth) {
 		var rand = Math.random, dept,
 			newLength, newAngle,
@@ -50,19 +48,19 @@ void function () {
 		ctx.lineWidth = branchWidth
 		ctx.lineTo(endX, endY)
 		//sets white color for generated tree and branches
-		ctx.strokeStyle = 'white'
+		ctx.strokeStyle = '#df800e'
 		ctx.stroke()
 		newTravel = travel
 		if (!newTravel) return
 		subBranches = mainBranch -1
-		/*This is where the recursion occurs.
+		/*This is where the recursion really occurs!
 		Each new child branch is .7x the size of its parent branch,
 		so they are generated infinitely until they "fizzle out". */
 		branchWidth *= .7
 		for (var i = 0; i < subBranches; i++) {
 			/*set new angles defined by a formula
 			that is based on the max angle multiplied by a random value.
-			The value can't be negative because the branches will turn in onto themselves.
+			The value can't be negative because the branches will turn in onto themselves!
 			*/
 			newAngle = angle + rand()*maxAngle - maxAngle*.5
 			newLength = length * (.7 + rand()*.5)
