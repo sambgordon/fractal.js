@@ -1,5 +1,7 @@
 /*
 Fractaltrees.js
+By
+DevBySam
 */
 
 void function () {
