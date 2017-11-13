@@ -13,9 +13,9 @@ void function () {
 	//set width and height of canvas to fill screen
 	canvas.width = window.innerWidth
 	canvas.height = window.innerHeight
-  ctx.globalCompositeOperation;
+  ctx.globalCompositeOperation; //Sets context
 	var fractalTree = function () {
-		/* accesses clearRect() method of Canvas's 2d API with starting point (0,0) and size set to window.innerWidth
+		/* access clearRect() method of Canvas's 2d API with starting point (0,0) and size set to window.innerWidth
 		and .innerHeight
 		*/
 		ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
