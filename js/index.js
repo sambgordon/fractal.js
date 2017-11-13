@@ -15,12 +15,12 @@ void function () {
 	canvas.height = window.innerHeight
   ctx.globalCompositeOperation; //Sets context
 	var fractalTree = function () {
-		/* access clearRect() method of Canvas's 2d API with starting point (0,0) and size set to window.innerWidth
-		and .innerHeight
-		*/
 		ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
 		//Defines placement of tree relative to window, also
 		drawTree(ctx, (window.innerWidth/2), (window.innerHeight/1), 40, -Math.PI/2, travel+10, branchWidth)
+		/* fractalTree accesses the clearRect() method of Canvas's 2d API with starting point (0,0) and size 
+		set to window.innerWidth and .innerHeight
+		*/
 	}
 	//Define drawTree var as function that has following variables as parameters
 	var drawTree = function (ctx, startX, startY, length, angle, travel, branchWidth) {
