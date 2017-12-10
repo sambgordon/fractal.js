@@ -44,7 +44,7 @@ void function () {
 		newTravel = travel
 		if (!newTravel) return
 		subBranches = mainBranch -1
-		/*This is where the recursion really occurs!
+		//Recursive call to generate child branches
 		Each new child branch is .7x the size of its parent branch,
 		so they are generated infinitely until they "fizzle out". */
 		branchWidth *= .7
