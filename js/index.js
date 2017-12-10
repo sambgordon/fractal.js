@@ -39,7 +39,6 @@ void function () {
 		ctx.lineCap = 'round'
 		ctx.lineWidth = branchWidth
 		ctx.lineTo(endX, endY)
-		//sets white color for generated tree and branches
 		ctx.strokeStyle = '#df800e'
 		ctx.stroke()
 		newTravel = travel
