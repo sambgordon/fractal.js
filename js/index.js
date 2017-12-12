@@ -17,14 +17,14 @@ void function () {
 	//set width and height of canvas to fill screen
 	canvas.width = window.innerWidth
 	canvas.height = window.innerHeight
-  ctx.globalCompositeOperation; //Sets context
+  ctx.globalCompositeOperation;
 	var fractalTree = function () {
+		/* accesses clearRect() method of Canvas's 2d API with starting point (0,0) and size set to window.innerWidth
+		and .innerHeight
+		*/
 		ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
 		//Defines placement of tree relative to window, also
 		drawTree(ctx, (window.innerWidth/2), (window.innerHeight/1), 40, -Math.PI/2, travel+10, branchWidth)
-		/* fractalTree accesses the clearRect() method of Canvas's 2d API with starting point (0,0) and size 
-		set to window.innerWidth and .innerHeight
-		*/
 	}
 	//Define drawTree var as function that has following variables as parameters
 	var drawTree = function (ctx, startX, startY, length, angle, travel, branchWidth) {
@@ -43,13 +43,14 @@ void function () {
 		ctx.lineCap = 'round'
 		ctx.lineWidth = branchWidth
 		ctx.lineTo(endX, endY)
-		ctx.strokeStyle = '#df800e'
+		//sets white color for generated tree and branches
+		ctx.strokeStyle = 'white'
 		ctx.stroke()
 		newTravel = travel
 		if (!newTravel) return
 		subBranches = mainBranch -1
-		//Recursive call to generate child branches
-		Each new child branch is .7x the size of its parent branch,
+		/*This is where the recursion occurs
+		Each new child branch is 7/10 the size of its parent branch,
 		so they are generated infinitely until they "fizzle out". */
 		branchWidth *= .7
 		for (var i = 0; i < subBranches; i++) {
