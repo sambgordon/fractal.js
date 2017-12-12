@@ -19,5 +19,5 @@ Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an as
 
 (*UPDATE: I now intend on integrating a UI with the app using jQuery where the user is able to adjust certain parameters themselves. Stay tuned.*)
 
-[View live Demo](https://rawgit.com/sambgordon/Recursive-Fractal-Trees/master/index.html)
+[View live Demo](https://rawgit.com/sambgordon/Fractaltrees.js/master/index.html)
 ___
