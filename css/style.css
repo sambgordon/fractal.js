@@ -1,13 +1,13 @@
 /* -- Import Open Sans font -- */
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,800');
-/* -- Import Karla font -- */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,800);
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 
 /* -- Simple body text styling -- */
 body{
     margin: 0; padding: 0;
     overflow:hidden;
-    background-color: black;
+    background-color: #e20c30;
     width:100%;
     height:100%;
     background-size:cover
@@ -15,7 +15,7 @@ body{
 
 h1, h2, p {
 font-family: 'Karla', sans-serif;
-color: #ee5005;
+color: white
 }
 
 /* --Simple reset button styling -- */
@@ -23,10 +23,6 @@ color: #ee5005;
   color: white;
   text-align: center;
   margin: auto
-}
-
-.btn-default{
-  border-radius: 5%;
 }
 
 /* -- Simple canvas rules.
