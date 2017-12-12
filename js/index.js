@@ -1,6 +1,6 @@
 /**
 * Application Name: Fractaltrees.js
-* Plugin URI: https://github.com/sambgordon/Fractaltrees.js
+* Application URI: https://github.com/sambgordon/Fractaltrees.js
 * Description: This plugin generates binary tree-based fractals.
 * Version: 1.0.0
 * Author: Sam Gordon
