@@ -9,7 +9,7 @@
 */
 
 void function () {
-	//Declare variables travel, branchWidth, canvas, and the canvas context
+	//Declare anonymous function with vars for travel, branchWidth, canvas, and the canvas context
 	var travel = 100 , branchWidth = 10
 	
 	//Draw canvas and set 2D context
