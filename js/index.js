@@ -59,7 +59,7 @@ void function () {
 		subBranches = mainBranch -1
 		
 		/*This is where the recursion occurs
-		Each new child branch is 7/10 the size of its parent branch,
+		Each new child branch is .7 times the size of its parent branch,
 		so they are generated infinitely until they "fizzle out". */
 		branchWidth *= .7
 		for (var i = 0; i < subBranches; i++) {
