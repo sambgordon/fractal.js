@@ -19,7 +19,7 @@ void function () {
 	//set width and height of canvas to fill screen
 	canvas.width = window.innerWidth
 	canvas.height = window.innerHeight
-  ctx.globalCompositeOperation;
+  	ctx.globalCompositeOperation;
 	var fractalTree = function () {
 		
 		/* accesses clearRect() method of Canvas API with starting point (0,0) and size set relative to
