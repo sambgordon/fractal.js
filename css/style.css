@@ -1,9 +1,8 @@
 /* -- Import Open Sans font -- */
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,800);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 
-/* -- Simple body text styling -- */
+
 body{
     margin: 0; padding: 0;
     overflow:hidden;
@@ -14,19 +13,18 @@ body{
 }
 
 h1, h2, p {
-font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif;
 color: white
 }
 
-/* --Simple reset button styling -- */
+
 .resetButton{
   color: white;
   text-align: center;
   margin: auto
 }
 
-/* -- Simple canvas rules.
-z-index places canvas below text and button -- */
+
 canvas{
   position: absolute;
   z-index: -11
