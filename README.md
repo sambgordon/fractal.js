@@ -17,5 +17,5 @@ Branches are generated that get smaller and smaller infinitely  (i.e. 0 is an as
 ### NOTE: Runs best in Chrome!
 #### Also: If you resize the browser, simply click "Generate!" and the new tree will be created in accordance to the new browser size and position.
 
-[View live Demo](https://rawgit.com/sambgordon/Fractaltrees.js/master/index.html)
+[View live Demo](https://rawcdn.githack.com/sambgordon/fractal.js/dc1651527dc087840eac31ee14eb94d0ca26a134/index.html)
 ___
